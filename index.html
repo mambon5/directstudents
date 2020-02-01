@@ -27,8 +27,7 @@ function myFunction(xml) {
   var table="<tr><th>Title</th><th>Name</th><th>Programe</th><th>Field</th>" +
       "<th>Published on</th><th>University</th><th>costs</th><th>Article</th></tr>";
   var x = xmlDoc.getElementsByTagName("note");
-  document.getElementById("echo1").innerHTML = x.length;
-  document.getElementById("echo2").innerHTML = table;
+  
   for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
     x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +
@@ -52,18 +51,26 @@ function myFunction(xml) {
 }
 </script>
   
-  <p id="echo1"></p>
-  <p id="echo2"></p>
+ <p style="margin-bottom:2cm;"></p>
+
+  <p>If you have any experiences with any of the people/university offices or installations that you would like to share
+  with us you are encouraged to let us know about it and we will post your comments. For this you need to specify:</p>
   
+  <table> 
+	<tr><th>Title of your remarks,</th><th>Name,</th><th>Programe,</th><th>Field of study,</th></tr>
+	<tr><th>Year in which you are in,</th><th>University about which you talk about,</th><th></th><th>Your comments,</th></tr>
+	<tr><th>If you want only your initial or your name to appear on the comment</th></tr>
+  </table>
   
-   <form method=post action="do_addtopic.php">
-   <p><strong>Your E-Mail Address:</strong><br>
-   <input type="text" name="topic_owner" size=40 maxlength=150>
-   <p><strong>Topic Title:</strong><br>
-   <input type="text" name="topic_title" size=40 maxlength=150>
-   <P><strong>Post Text:</strong><br>
-   <textarea name="post_text" rows=8 cols=40 wrap=virtual></textarea>
-   <P><input type="submit" name="submit" value="Add Topic"></p>
-   </form>
+    <p>Note that we will not publish any insults, threats or other aggressive remarks. Only your respectful opinion on any matter.</p>
+  <p>To have your comments published email them to </p>
+  
+    <table> 
+	<tr><th>studentsfordirectness@gmail.com<th></tr>
+	<tr></tr>
+	<tr></tr>
+  </table>
+  
+    <p style="margin-bottom:2cm;"></p>
    </body>
    </html>
