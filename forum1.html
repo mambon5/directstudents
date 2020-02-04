@@ -1,0 +1,100 @@
+<html>
+   <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Dr. Studentson</title>
+   
+   <style> 
+            table { 
+                
+            } 
+            th { 
+                
+            } 
+            th, td { 
+                text-align:left; 
+                padding:7px 
+              
+            } 
+
+
+        </style> 
+   
+   </head>
+  <body bgcolor=" #b5e7a0">
+  
+   <h1>Direct Students - Discussion Forum    <img src="underp1.png" alt="Smiley face" style="width:112px;height:70px;top:20px;position:relative"></h1>
+   
+
+   
+  <button type="button" onclick="loadXMLDoc()">Get my Directness flavoury comments</button>
+<br><br>
+<table id="demo"></table>
+  
+ 
+ 
+  <script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "apunts1.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Title</th><th>Name</th><th>Programe</th><th>Field</th>" +
+      "<th>Published on</th><th>University</th><th>costs</th><th style='min-width:50px'>Article</th></tr>";
+  var x = xmlDoc.getElementsByTagName("note");
+  
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td valign='top'>" +
+    x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +
+    "</td><td valign='top'>" +
+    x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+    "</td><td valign='top'>" +
+	x[i].getElementsByTagName("programe")[0].childNodes[0].nodeValue +
+    "</td><td valign='top'>" +
+	x[i].getElementsByTagName("field")[0].childNodes[0].nodeValue +
+    "</td><td valign='top'>" +
+	x[i].getElementsByTagName("semester")[0].childNodes[0].nodeValue +
+    "</td><td valign='top'>" +
+	x[i].getElementsByTagName("university")[0].childNodes[0].nodeValue +
+    "</td><td valign='top'>" +
+	x[i].getElementsByTagName("costs")[0].childNodes[0].nodeValue +
+    "</td><td valign='top' style='border-bottom-style:dotted;border-bottom-color:#86af49;'>" +
+	x[i].getElementsByTagName("article")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+  
+ <p style="margin-bottom:2cm;"></p>
+
+  <p>If you have any experiences with any of the people/university offices or installations that you would like to share
+  with us you are encouraged to let us know about it and we will post your comments. For this you need to specify:</p>
+
+  <table style='color:#405d27'> 
+	<tr ><th>Title of your remarks,</th><th>Name,</th><th>Programe,</th><th>Field of study,</th></tr>
+	<tr><th>Year in which you are in,</th><th>University about which you talk about,</th><th></th><th>Your comments,</th></tr>
+	<tr><th>If you want only your initial or your name to appear on the comment</th></tr>
+  </table>
+
+    <p>Note that we will not publish any insults, threats or other aggressive remarks. Only your respectful opinion on any matter.</p>
+  <p>To have your comments published email them to </p>
+  
+    <table> 
+	<tr><th>studentsfordirectness@gmail.com<th></tr>
+	<tr></tr>
+	<tr></tr>
+  </table>
+  
+  <p><b>Disclaimer:</b> We take responsibility for what we publish, so we please ask you to be thoughtful on your comments and
+  to tell us what you really think. </p>
+    <p style="margin-bottom:2cm;"></p>
+   </body>
+   </html>
