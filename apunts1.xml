@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book>
+<note>
+    <title> Monetization of exams and homework is unjust </title>
+    <name>Arika Ho</name>
+	<fullname>william emily</fullname>
+	<anumber>unknown</anumber>
+	<studyyr>1st</studyyr>
+	<programe>masters</programe>
+	<field>Data Science</field>
+    <country>USA</country>
+    <university>Illinois Institute of Technology</university>
+    <costs>$127/semester </costs>
+    <semester>Spring 2020</semester>
+	<article>In my final exam I had to buy a $7 study pack for being able to do a question in the exam. Without it you cannot
+	possible get an A  or a B on it. Will you pay for the pack? Of course you will, I paid $7 for it. We students 
+	we have not choice. I think that having to pay for doing your own exams goes a bit too far. We already pay A LOT of money
+	for our tuition fees, why do we have to pay extra money for doing our exams?? It makes no sense. Besides this in courses like MATH 151, MATH152 
+	or MATH 251 (Calculus courses) you have to pay around $120 each semester if you want to have your homework graded. Shouldn't this be 
+	already included in our expensive tuition fees? I wish the university would fund this or something..</article>
+  </note>
   <note>
     <title> No room for rectifying our grades </title>
-    <name>W.</name>
+    <name>Will</name>
 	<fullname>william emily</fullname>
 	<anumber>unknown</anumber>
 	<studyyr>3rd</studyyr>
@@ -19,7 +38,7 @@
   </note>
     <note>
     <title> We pay for doing homework?! </title>
-    <name>W. and Greg</name>
+    <name>Will and Greg</name>
 	<fullname>william emily</fullname>
 	<anumber>unknown</anumber>
 	<studyyr>3rd and 1st</studyyr>
@@ -27,7 +46,7 @@
 	<field>Chemistry and Aerospace</field>
     <country>USA</country>
     <university>Illinois Institute of Technology</university>
-    <costs> $360 </costs>
+    <costs> $360/semester </costs>
     <semester>Spring 2020</semester>
 	<article>We are quite frustrated that we have to pay for doing our homework. On top of paying our tuition fees we have to pay
 	an extra $120 for creating an account of the webpage "Webassign". If we don't pay this amount of money, we cannot access
@@ -56,7 +75,7 @@
   </note>
   <note>
     <title>Misuse of activity fee? </title>
-    <name>W.</name>
+    <name>Will</name>
 	<fullname>will emily</fullname>
 	<anumber>unknown</anumber>
 	<studyyr>3rd</studyyr>
@@ -64,14 +83,14 @@
 	<field>Chemistry</field>
     <country>USA</country>
     <university>Illinois Institute of Technology</university>
-    <costs> $125 </costs>
+    <costs> $125/semester </costs>
     <semester>Spring 2020</semester>
 	<article>I have witnessed some organizations buying around 400 sandwiches for a meeting of 20 people. I have the 
 feeling that sometimes money coming from this fees is being wasted. "It's like a place of kids run by kids".	</article>
   </note>
      <note>
     <title>The contradictory life at MSV </title>
-    <name>Greg and W.</name>
+    <name>Greg and Will</name>
 	<fullname>greg frater</fullname>
 	<anumber>unknown</anumber>
 	<studyyr>1st and 3rd</studyyr>
